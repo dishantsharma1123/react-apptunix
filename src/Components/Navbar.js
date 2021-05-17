@@ -30,7 +30,7 @@ function Navbar() {
                             <li><Link className='nav-items' to="/">Login</Link></li>
                             <li><Link className='nav-items' to="/">24/7 customer support</Link></li>
                             <Link to='/cart'>
-                                <li><a className='nav-items' href="#">
+                                <li><a className='nav-items' href="/">
                                     <div className="product-cart">
                                         <FaOpencart style={{ fontSize: 25 }} />
                                         <h4 className='product-count'>{totalQuantities}</h4>
