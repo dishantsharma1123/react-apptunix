@@ -27,8 +27,8 @@ function Navbar() {
                     <div className="nav-links-container">
                         <ul className='align-nav-links'>
                             <li><Link className='nav-items' to="/">Home</Link></li>
-                            <li><Link className='nav-items' to="#">Login</Link></li>
-                            <li><Link className='nav-items' to="#">24/7 customer support</Link></li>
+                            <li><Link className='nav-items' to="/">Login</Link></li>
+                            <li><Link className='nav-items' to="/">24/7 customer support</Link></li>
                             <Link to='/cart'>
                                 <li><a className='nav-items' href="#">
                                     <div className="product-cart">
