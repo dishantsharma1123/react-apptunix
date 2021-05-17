@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux'
 import fmt from 'indian-number-format'
 import { BsDash, BsPlus } from 'react-icons/bs'
 import { AiOutlineClose } from "react-icons/ai";
-import axios from 'axios'
 
 const Cart = (props) => {
     const { products, totalQuantities, totalPrice } = useSelector(state => state.CartReducer)

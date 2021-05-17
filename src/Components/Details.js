@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import formatAmount from 'indian-currency-formatter'
 import fmt from 'indian-number-format'
-import { BsDash, BsPlus } from 'react-icons/bs'
 
 const Details = () => {
     const [quantity, setQuantity] = useState(1)
@@ -15,12 +14,6 @@ const Details = () => {
     useEffect(() => {
         dispatch({ type: 'PRODUCT', id })
     }, [id])
-
-    const decQuantity = () => {
-        if (quantity > 1) {
-            setQuantity(quantity - 1)
-        }
-    }
 
     return (
         <div className='container mt-80'>
